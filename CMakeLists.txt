@@ -16,6 +16,8 @@ include_directories(
 add_executable(merge_arrays_sorted merge_arrays/merge_sorted.cpp)
 add_executable(merge_arrays_heap merge_arrays/min_heap.cpp)
 
+add_executable(make_pair make_pair/make_pair.cpp)
+
 # target_link_libraries(merge_sorted_arrays
 # ${JSONCPP_LIBRARIES}
 # )
