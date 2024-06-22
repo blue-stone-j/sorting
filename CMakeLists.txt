@@ -18,6 +18,4 @@ add_executable(merge_arrays_heap merge_arrays/min_heap.cpp)
 
 add_executable(make_pair make_pair/make_pair.cpp)
 
-# target_link_libraries(merge_sorted_arrays
-# ${JSONCPP_LIBRARIES}
-# )
+add_executable(insert_sort test/insert_sort_node.cpp)
