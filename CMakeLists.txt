@@ -19,3 +19,7 @@ add_executable(merge_arrays_heap merge_arrays/min_heap.cpp)
 add_executable(make_pair make_pair/make_pair.cpp)
 
 add_executable(insert_sort test/insert_sort_node.cpp)
+
+add_executable(bubble_sort test/bubble_sort_node.cpp)
+
+add_executable(select_sort test/select_sort_node.cpp)
