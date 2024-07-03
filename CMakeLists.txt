@@ -13,10 +13,10 @@ include_directories(
   ${JSONCPP_INCLUDE_DIRS}
 )
 
-add_executable(merge_arrays_sorted merge_arrays/merge_sorted.cpp)
-add_executable(merge_arrays_heap merge_arrays/min_heap.cpp)
+add_executable(merge_arrays_sorted test/merge_arrays/merge_sorted_node.cpp)
+add_executable(merge_arrays_heap test/merge_arrays/min_heap_node.cpp)
 
-add_executable(make_pair make_pair/make_pair.cpp)
+add_executable(make_pair test/make_pair/make_pair_node.cpp)
 
 add_executable(insert_sort test/insert_sort_node.cpp)
 
