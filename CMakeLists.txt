@@ -23,3 +23,5 @@ add_executable(insert_sort test/insert_sort_node.cpp)
 add_executable(bubble_sort test/bubble_sort_node.cpp)
 
 add_executable(select_sort test/select_sort_node.cpp)
+
+add_executable(quick_sort test/quick_sort_node.cpp)

@@ -24,3 +24,11 @@ make
 ./merge_arrays_sorted # merge sort or 
 ./merge_arrays_heap # min_heap
 ```
+
+### bubble sort
+
+### insert sort
+
+### select sort
+
+### quick sort
